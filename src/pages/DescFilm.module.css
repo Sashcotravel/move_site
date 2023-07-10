@@ -1,0 +1,282 @@
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding: 40px 0 100px;
+}
+
+.pFilm{
+    font-size: 15px;
+    line-height: 20px;
+    color: #a6a6a6;
+}
+
+.divGrid{
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+}
+
+.imgPhoto{
+    width: 155px;
+    height: 235px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.h1{
+    width: 441px;
+    height: 135px;
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.divDesc{
+    padding-top: 35px;
+}
+
+.divImg{
+    padding-top: 35px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divTouch{
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #465153;
+    margin-top: 35px;
+}
+
+.spanTouch{
+    width: 80px;
+    font-size: 15px;
+    line-height: 20px;
+    margin-right: 70px;
+    color: #FFFFFF;
+    margin-left: 5px;
+    height: 41px;
+    cursor: pointer;
+}
+
+.spanX2{
+    margin: 0 20px;
+    position: absolute;
+    color: #a6a6a6;
+}
+
+.imgDesc{
+    height: 158px;
+    width: 280px;
+    border-radius: 8px;
+    margin-top: 35px;
+}
+
+.divInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 50px;
+}
+
+.pName{
+    width: 88px;
+    height: 31px;
+    font-size: 13px;
+    line-height: 16px;
+    color: #A5A1B2;
+}
+
+.pNameTime{
+    width: 88px;
+    height: 31px;
+    font-size: 13px;
+    line-height: 16px;
+    color: #A5A1B2;
+    margin-top: 10px;
+}
+
+.pOc{
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin: 15px 0 10px;
+}
+
+.pOc span{
+    font-size: 20px;
+}
+
+.mainWatch{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.divButNV{
+    margin: 15px 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pNV{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #858a99;
+    cursor: pointer;
+}
+
+.pNV:hover{
+    color: white;
+}
+
+.watchH1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.watchH2{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fdfdfd;
+    margin: 35px 0 40px;
+}
+
+.watchImg{
+    height: 235px;
+    width: 153px;
+    border-radius: 8px;
+    margin: 0 20px 10px 0;
+    object-fit: cover;
+}
+
+.watchP{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #D9D7E0;
+}
+
+.watchPrise{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #EA003D;
+}
+
+.divImageBox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.displayNone{
+    display: none;
+}
+
+.displayBlock{
+    display: flex;
+}
+
+
+@media screen and (max-width: 1400px) {
+   .divImg{
+       align-items: flex-end;
+   }
+    .pOc{
+        width: 150px;
+    }
+    .pFilm{
+        width: 120px;
+    }
+    .spanTouch{
+        margin-right: 45px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .mainDiv{
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .divGrid{
+        display: flex;
+        flex-direction: column;
+    }
+    .displayNone{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .displayBlock{
+        display: none;
+    }
+    .imgPhoto{
+        width: 350px;
+        height: 500px;
+    }
+    .divInfo{
+        width: 45%;
+        padding-left: 0;
+        align-items: flex-start;
+    }
+    .pOc{
+        width: auto;
+        font-size: 35px;
+        margin: 20px 0 20px;
+    }
+    .pName{
+        width: auto;
+        font-size: 16px;
+    }
+    .pNameTime{
+        margin-top: 0;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .mainDiv{
+        width: 100%;
+        padding: 30px 20px;
+    }
+    .imgPhoto{
+        width: 100%;
+    }
+    .pOc{
+        width: 300px;
+        font-size: 30px;
+    }
+    .h1{
+        width: auto;
+        height: auto;
+        font-weight: 700;
+        font-size: 33px;
+        line-height: 40px;
+    }
+    .spanTouch{
+        margin: 0 20px 0 0;
+    }
+    .spanX2{
+        margin: -5px 5px 0;
+        font-size: 10px;
+    }
+}

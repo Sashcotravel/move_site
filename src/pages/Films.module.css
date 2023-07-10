@@ -1,0 +1,610 @@
+.mainWatch{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding: 40px 0 100px;
+}
+
+.videoTag{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    height: 405px;
+    width: 100%;
+}
+
+.buttonTrailer{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 109px;
+    border-radius: 8px;
+    padding: 10px 12px;
+    background: rgba(255, 255, 255, 0.08);
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 25px;
+}
+
+.bEmpte{
+    height: 40px;
+    width: 40px;
+    border-radius: 8px;
+    margin: 25px 0 0 15px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.divButTr{
+    display: flex;
+    justify-content: space-between;
+}
+
+.videoDiv{
+    width: 61%;
+}
+
+.videoDivInfo{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+.freeFilm{
+    height: 40px;
+    width: 200px;
+    border-radius: 8px;
+    padding: 10px 12px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.08);
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 25px;
+}
+
+.h1Title{
+    text-align: center;
+    width: 100%;
+    margin: 0 20px;
+    font-size: 42px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.divTimeFilm{
+    display: flex;
+    justify-content: center;
+}
+
+.spanTimeFilm{
+    margin: 20px 0 0 20px;
+    color: #FFFFFFB8;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.spanDot{
+    color: white;
+    margin-top: 20px;
+}
+
+.spanCountryFilm{
+    margin: 20px 10px 0 10px;
+    color: #FFFFFFB8;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.spanFullHDFilm{
+    margin: 20px 0 0 20px;
+    font-size: 13px;
+    line-height: 16px;
+    outline: none;
+    border: none;
+    background: rgba(255, 255, 255, 0.08);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.imgBoxFlex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spamImgSeven{
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 6px solid grey;
+}
+
+.divImage{
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.imgFilm{
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+}
+
+.textImg{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.48);
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.pDesc{
+    margin: 40px 0 20px;
+    font-size: 15px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.72);
+}
+
+.divOcen{
+    width: 100%;
+    height: 84px;
+    background-color: rgba(127, 148, 152, 1);
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.imgSeven{
+    width: 64px;
+    height: 64px;
+    padding: 18px 0;
+    border-radius: 8px;
+    background-color: #BC0032;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.spanTextVest{
+    color: white;
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 20px;
+}
+
+.spanText2{
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 20px;
+}
+
+.buttonOcen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 72px;
+    height: 24px;
+    padding: 5px 8px;
+    background-color: transparent;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.32);
+    color: #FFF;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.buttonOcen:hover{
+    background-color: rgba(255, 255, 255, 0.41);
+    color: #414141;
+}
+
+.psFilm{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 100px 0 25px 0;
+}
+
+.psFilm2{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 60px 0 25px 0;
+}
+
+.imgPosterFilm{
+    /*width: 155px;*/
+    width: 100%;
+    height: 235px;
+    margin: 0 25px 10px 0;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+.spanIvi{
+    position: absolute;
+    border-radius: 10px;
+    background: #EA003D;
+    box-shadow: 0px 4px 12px 0px rgba(234, 0, 61, 0.40);
+    display: inline-flex;
+    padding: 2px 7.953px 2px 8px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+    margin: 15px 0 0 -5px;
+}
+
+.pNameFilmInfo{
+    color: #D9D7E0;
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 5px;
+}
+
+.pPriceInfo{
+    color: #EA003D;
+    font-size: 13px;
+    line-height: 13px;
+}
+
+.pNameWorks{
+    color: #A5A1B2;
+    font-size: 13px;
+    line-height: 16px;
+    margin: 5px 0 15px;
+}
+
+.imgCast{
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    margin: 0 25px 5px 0;
+    object-fit: cover;
+}
+
+.pNameActors{
+    width: 90px;
+    margin: 5px 0;
+    color: #D9D7E0;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.spanImg{
+    background: #7F9498;
+    width: 88px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pT{
+    height: 18px;
+    color: #D9D7E0;
+    margin: 10px 0;
+}
+
+.imgDesc{
+    height: 158px;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 35px;
+    object-fit: cover;
+}
+
+.dopNum{
+    color: #A5A1B2;
+    font-size: 13px;
+    line-height: 16px;
+    margin: 0 0 0 5px;
+}
+
+.dopSpor{
+    color: #A5A1B2;
+    font-size: 13px;
+    line-height: 16px;
+    margin: 10px 0 0 50px;
+}
+
+.suzhet{
+    width: 50%;
+    height: 58px;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 15px;
+    line-height: 22px;
+    overflow-y: clip;
+}
+
+.pDescDop{
+    width: 100px;
+    color: #A5A1B2;
+    font-size: 13px;
+    line-height: 16px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.pDescDop2{
+    color: #A5A1B2;
+    font-size: 13px;
+    line-height: 16px;
+    margin: 15px 0;
+}
+
+.buttonOtsiv{
+    display: flex;
+    padding: 8px 36.266px 8px 12px;
+    align-items: flex-start;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.32);
+    background-color: transparent;
+    color: #FFF;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.buttonOtsiv:hover{
+    background-color: rgba(255, 255, 255, 0.41);
+    color: #414141;
+}
+
+.otzBox{
+    width: 24%;
+    background-color: #7F9498;
+    padding: 20px 20px 30px 20px;
+    border-radius: 10px;
+}
+
+.otxName{
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+
+.otxDesc{
+    color: #FFF;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+
+.otxTime{
+    color: #FFF;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.boxRez{
+    width: 48%;
+    align-items: flex-start;
+    padding: 48px 20px 20px 20px;
+    background-color: #7F9498;
+    border-radius: 10px;
+}
+
+.rezName{
+    color: #FFF;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.rezDesc{
+    overflow-y: clip;
+    height: 58px;
+    color: #FFF;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+
+.liInfo{
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 15px;
+    line-height: 22px;
+    margin-top: 20px;
+    width: 580px;
+}
+
+.boxIm{
+    width: 14%;
+    margin-right: 20px;
+}
+
+.divFlex{
+    display: flex;
+}
+
+.boxWidth{
+    width: 24%;
+    margin-right: 10px;
+}
+
+.boxComment{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.divRezMain{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 1650px) {
+   .h1Title{
+       font-size: 35px;
+   }
+    .spanIvi{
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .spanIvi{
+        margin-top: 35px;
+    }
+    .divOcen{
+        height: 105px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .mainWatch{
+        width: 80vw;
+    }
+    .divButTr{
+        flex-direction: column;
+    }
+    .videoDiv{
+        width: auto;
+    }
+    .divButTr2{
+        flex-direction: row;
+        margin-bottom: 50px;
+    }
+    .videoDivInfo{
+        width: auto;
+    }
+    .none{
+        display: none;
+    }
+    .imgPosterFilm{
+        height: 195px;
+        object-fit: cover;
+    }
+    .spanIvi{
+        margin-top: 15px;
+    }
+    .divOcen{
+        height: 85px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .divFlex{
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .boxWidth{
+        width: 45%;
+    }
+    .suzhet{
+        width: auto;
+        height: 40px;
+    }
+    .boxComment{
+        flex-wrap: wrap;
+    }
+    .otzBox{
+        width: 49%;
+        margin-bottom: 20px;
+    }
+    .mainWatch{
+        width: auto;
+        padding: 50px 20px;
+    }
+    .h1Title{
+        width: 90%;
+    }
+    .liInfo{
+        width: 90%;
+    }
+    .boxLi{
+        padding-left: 20px;
+    }
+    .imgPosterFilm{
+        height: 135px;
+    }
+    .spanIvi{
+        padding: 1px 4px 1px 5px;
+        font-size: 11px;
+        margin: 10px 0 0 -8px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .mainWatch{
+        width: 100%;
+        padding: 30px 20px;
+    }
+    .divControlBox{
+        width: 100%;
+    }
+    .boxinfo3{
+        flex-wrap: wrap;
+    }
+    .boxIm{
+        width: 44%;
+        margin: 0 10px 10px;
+    }
+    .imgPosterFilm{
+        margin: 0 0 -15px 0;
+        height: 300px;
+        object-fit: contain;
+    }
+    .boxZhanr {
+        width: 97px;
+    }
+    .spanIvi {
+        font-size: 13px;
+        margin: 15px 0 0 0;
+        padding: 2px 8px;
+    }
+    .videoTag{
+        height: 200px;
+    }
+    .freeFilm{
+        font-size: 11px;
+        width: 140px;
+    }
+    .otxTime{
+        font-size: 14px;
+    }
+    .divRezMain{
+        flex-direction: column;
+    }
+    .boxRez{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

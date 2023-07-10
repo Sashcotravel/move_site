@@ -1,0 +1,218 @@
+.imgDesc{
+    height: 158px;
+    width: 280px;
+    border-radius: 8px;
+    margin-top: 35px;
+}
+
+.pT{
+    height: 18px;
+    width: 64px;
+    color: #D9D7E0;
+    margin: 10px 0;
+}
+
+.pTime{
+    width: 100px;
+    height: 16px;
+    color: #A5A1B2;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.divAllInfo{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 10px;
+}
+
+.img{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 5px;
+}
+
+.photo{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.spanTime{
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    margin-left: 10px;
+    color: #677381;
+}
+
+.spanName{
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    margin-left: 10px;
+    color: #7a8291;
+}
+
+.pTitle{
+    margin-left: 30px;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.pDesc{
+    margin: 10px 0 0 30px;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #bdc0c9;
+}
+
+.pRez{
+    margin-top: 15px;
+    width: 100px;
+}
+
+.pRez:hover{
+    color: white;
+}
+
+/* Desc */
+
+.divSearch{
+    display: flex;
+    margin: 35px 10px 35px 50px;
+}
+
+.inputDesc{
+    height: 40px;
+    width: 425px;
+    border-radius: 10px;
+    background: #D9D7E0;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #2e2e2f;
+    cursor: pointer;
+}
+
+.buttonSearch{
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 40px;
+    background: #EA003D;
+    border: 1px solid #EA003D;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.buttonShe{
+    margin: 20px 0;
+    background-color: #f0f8ff00;
+    border: none;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.buttonShe:hover{
+    background-color: #a5a1b2a1;
+    color: black;
+}
+
+/* Desc end */
+
+/* sos */
+
+.imgSos{
+    height: 128px;
+    width: 128px;
+    border-radius: 50%;
+    margin: 20px 27px 5px 0;
+    object-fit: cover;
+}
+
+.imgCreate{
+    background-color: #7F9498;
+    height: 128px;
+    width: 128px;
+    display: block;
+    border-radius: 50%;
+}
+
+.pDescSos{
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #D9D7E0;
+    width: 130px;
+}
+
+.pTimeSos{
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #A5A1B2;
+}
+
+.pTitleSos{
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 20px 0;
+}
+
+/* sos end */
+
+
+@media screen and (max-width: 600px) {
+    .divSearch{
+        margin-left: 0;
+    }
+    .buttonSearch{
+        font-size: 11px;
+    }
+}
