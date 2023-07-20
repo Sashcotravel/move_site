@@ -16,6 +16,7 @@ function App() {
                 <Route path='/my-ivi' element={<DescFilm />}/>
                 <Route path='/why-new' element={<WatchLater />}/>
                 <Route path='/films' element={<Films />}/>
+                <Route path='/films/:id' element={<Films />}/>
                 {/*<Route path='/serial' element={<DescFilm/>}/>*/}
                 {/*<Route path='/cartoon' element={<DescFilm/>}/>*/}
                 <Route path='/search' element={<Search />}/>
